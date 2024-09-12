@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body class="blurred">
+    <header class="header">
+      <div class="header-left">
+        <img class="weather-icon large" src="icons/snowflake.svg" data-current-icon />
+        <div class="header-current-temp">
+          <span data-current-temp>18</span>&deg;
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="info-group">
+          <div class="label">Høgaste</div>
+          <div><span data-current-high>22</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Kjennest som (høgaste)</div>
+          <div><span data-current-fl-high>22</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Vind</div>
+          <div><span data-current-wind>2</span><span class="value-sub-info"> m/s</span></div>
+        </div>
+        <div class="info-group">
+          <div class="label">Lågaste</div>
+          <div><span data-current-low>13</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Kjennest som (lågaste)</div>
+          <div><span data-current-fl-low>13</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Nedbør</div>
+          <div><span data-current-precip>2</span><span class="value-sub-info"> mm</span></div>
+        </div>
+      </div>
+    </header>
+    <section id="day-section-cards" class="day-section" data-day-section>
+
+    </section>
+    <table id="weather-rows" class="hour-section">
+      
+    </table>
+
+    
+  </body>
+</html>
+
+
+
